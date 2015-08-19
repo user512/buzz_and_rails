@@ -1,7 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+= Buzy
+
+The app allows user to create post.
+The post can only be view by nearby users.
 
 Things you may want to cover:
 

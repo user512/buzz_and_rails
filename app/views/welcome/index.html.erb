@@ -1,5 +1,6 @@
 <h1>Welcome to Buzz</h1>
 
+<div class="sign_up">
 <%= form_for :user, url: users_path(@user), method: :post do |f| %>
 
   <p>
@@ -17,6 +18,7 @@
   </p>
 
 <% end %>
+</div>
 
 <div class="sign_in">
         <%= form_for :session, url: sessions_path, method: :post do |f| %>
@@ -33,7 +35,5 @@
       <%= f.submit "Log in" %>
     <% end %>
 </div>
-
-<%= link_to 'Back', root_path %>
 
 <div class="debugger" id="map-canvas"></div>
